@@ -1,0 +1,1 @@
+call pytest --html=reports/Raport_testów.html
