@@ -3,5 +3,5 @@ Automatyczne testy aplikacji e-commerce-analizowanie dynamicznych elementów na 
 
 Uzyskane wyniki:
 
-![Rezultaty testów z pytest-html](Images\Report_TEST_RESULTS.png)
-![Okno pytest](Images\Tests_Running.png)
+![Rezultaty testów z pytest-html](testy-Selenium\Images\Report_TEST_RESULTS.png)\n
+![Okno pytest](testy-Selenium\Images\Report_TEST_RESULTS.png)
