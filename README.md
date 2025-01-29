@@ -9,4 +9,4 @@ WYNIKI PYTEST-HTML>>>
 <br>  
 OKNO PYTEST>>>
 <br> 
-![Okno pytest](Images/Report_TEST_RESULTS.png)
+![Okno pytest](Images/Tests_Running.png)
