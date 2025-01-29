@@ -1,1 +1,1 @@
-call pytest --html=reports/Raport_testów.html
+call pytest --html=reports/Report_TEST_RESULTS.html
