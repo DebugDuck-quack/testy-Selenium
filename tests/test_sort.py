@@ -27,6 +27,7 @@ def login(driver, username="standard_user", password="secret_sauce"):
     driver.find_element(By.ID, "login-button").click()
 
 def test_sort_products():
+    
     # Test sortowania produktów według ceny
     driver = setup_driver()
     try:
