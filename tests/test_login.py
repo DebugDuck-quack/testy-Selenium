@@ -33,6 +33,9 @@ def test_login_success():
     driver = setup_driver()
     try:
         login(driver, "standard_user", "secret_sauce")
+
+        #sprawdzenie niepoprawnych danych logowania dla testu z prawidłowym logowaniem-wymuszenie błędu w tescie
+        #login(driver, "Janusz", "secret_sauce")
         
         print("5. Sprawdzenie, czy użytkownik został przekierowany do strony inventory")
         assert "inventory" in driver.current_url, "Błąd!Logowanie nieudane!"
