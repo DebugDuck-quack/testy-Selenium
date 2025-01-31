@@ -1,1 +1,2 @@
-.pytest_cache/
+.testy-Selenium/pytest_cache/
+.testy-Selenium/drivers/chromedriver.exe
