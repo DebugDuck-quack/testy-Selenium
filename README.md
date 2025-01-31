@@ -34,3 +34,14 @@ WYNIKI PYTEST-HTML>>>
 OKNO PYTEST>>>
 <br> 
 ![Okno pytest](Images/Tests_Running.png)
+<br> 
+<br> 
+A teraz przykład gdzie celowo zmieniłem login aby uzyskać błąd testu (Login:"Janusz")
+<br> Fail dla funkcji 'test_login_success'.Reszta testów wykonała sie prawidłowo
+
+<br> 
+![Rezultaty testów z pytest-html](Images/Report_TEST_RESULTS_with_errors_login.png)
+<br>  
+OKNO PYTEST>>>
+<br> 
+![Okno pytest](Images/Tests_Running_with_errors_login.png)
