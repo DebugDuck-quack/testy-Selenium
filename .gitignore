@@ -1,3 +1,5 @@
-.testy-Selenium/pytest_cache/
-.testy-Selenium/drivers/chromedriver.exe
-.testy-Selenium/tests/__pycache__
+.pytest_cache/
+.drivers/chromedriver.exe
+.tests/__pycache__
+drivers/*
+!drivers/.gitkeep
