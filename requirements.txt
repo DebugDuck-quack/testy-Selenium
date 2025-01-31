@@ -1,4 +1,3 @@
-Chrome wersja 132.x
 Selenium
 pytest
 pytest-html
