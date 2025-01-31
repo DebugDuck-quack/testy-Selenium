@@ -36,12 +36,14 @@ OKNO PYTEST>>>
 ![Okno pytest](Images/Tests_Running.png)
 <br> 
 <br> 
-A teraz przykład gdzie celowo zmieniłem login aby uzyskać błąd testu (Login:"Janusz")
-<br> Fail dla funkcji 'test_login_success'.Reszta testów wykonała sie prawidłowo
-
+<br>
+Aby zademonstrować obsługę błędów, dodałem przykład testu aby celowo zakończył się niepowodzeniem. W tym przypadku zmieniłem login na "Janusz", co spowodowało, że test `test_login_success` zakończył się błędem. Pozostałe testy zostały wykonane prawidłowo.Na poniższym screenie widać błąd asercji, który łatwo można zdiagnozować jako przyczynę błędu czyli nieprawidłowy login "Janusz" powoduje, że logowanie nie jest pomyślne:
 <br> 
+<br> 
+WYNIKI PYTEST-HTML>>>
 ![Rezultaty testów z pytest-html](Images/Report_TEST_RESULTS_with_errors_login.png)
 <br>  
 OKNO PYTEST>>>
 <br> 
 ![Okno pytest](Images/Tests_Running_with_errors_login.png)
+
